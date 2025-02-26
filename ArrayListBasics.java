@@ -19,13 +19,16 @@ public class ArrayListBasics {
 
 		ArrayList<String> arList2 = new ArrayList<>(Arrays.asList("Sivan", "Sheela", "Sarojini"));
 		System.out.println(arList2);
+		
+		// 3.*******Getting the value at specific index****
+		System.out.println(arList2.get(2));
 
-		System.out.println(arList2.get(2));// 3.*******Getting the value at specific index****
-
-		arList2.add(0, "Shine");// 4.******Adding the new element at specific index****
+		// 4.******Adding the new element at specific index****
+		arList2.add(0, "Shine");
 		System.out.println(arList2);
 
-		boolean flag = arList2.contains("Shine");// 5.****Check whether the element is present in the arraylist
+		// 5.****Check whether the element is present in the arraylist
+		boolean flag = arList2.contains("Shine");
 		System.out.println(flag);
 
 	}

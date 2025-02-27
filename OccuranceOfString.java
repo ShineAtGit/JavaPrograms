@@ -5,7 +5,8 @@ import java.util.HashMap;
 public class OccuranceOfString {
 
 	public static void main(String[] args) {
-
+		//write a program to find each string and its occurance
+		
 		String str = "shine shyam shine thing kerala pulpally kerala house shyam shine shyam";
 
 		String[] strArray = str.split(" ");

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CommonStrings {
-
+	//program to find the common strings in two arrayLists
 	public static void main(String[] args) {
 
 		ArrayList<String> al1 = new ArrayList<>(List.of("shine", "shyam", "anshu"));

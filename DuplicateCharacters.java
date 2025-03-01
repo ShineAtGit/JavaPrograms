@@ -20,7 +20,7 @@ public class DuplicateCharacters {
 //			else
 //				hmap.put(c, 1);
 			
-			//Using teritiary operator
+			//Using teritiary operator this is a change
 			
 			hmap.put(c,hmap.containsKey(c)?hmap.get(c)+1:1);
 			

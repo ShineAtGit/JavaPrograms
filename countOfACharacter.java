@@ -10,7 +10,7 @@ public class countOfACharacter {
 		String str = "shine thekkekara amarakuni pulpally";
 		long count=0;
 
-		//1.Using for Loop
+		//1.Using for Loop method
 		char[] charArray = str.toCharArray();
 				
 		for (char c : charArray) {
